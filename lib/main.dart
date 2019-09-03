@@ -39,6 +39,8 @@ class _BallState extends State<Ball> {
   Widget build(BuildContext context) {
     return Center(
       child: FlatButton(
+        highlightColor: Colors.transparent,
+        splashColor: Colors.transparent,
         onPressed: () {
           ballRandom();
         },
